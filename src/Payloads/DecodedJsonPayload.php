@@ -25,7 +25,7 @@ class DecodedJsonPayload extends Payload
 
         return [
             'content' => ArgumentConverter::convertToPrimitive($decodedJson),
-            'label' => '',
+            'label' => 'DecodedJson',
         ];
     }
 }
