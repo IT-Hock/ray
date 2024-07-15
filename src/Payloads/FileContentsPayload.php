@@ -30,7 +30,8 @@ class FileContentsPayload extends Payload
 
         return [
             'content' => $this->encodeContent($contents),
-            'label' => basename($this->file),
+            'label' => 'File',
+            'name' => basename($this->file),
         ];
     }
 
